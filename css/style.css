@@ -22,7 +22,7 @@
 @import url(../lib/font-awesome/font-awesome.min.css);
 @import url(../lib/carousel/owl.carousel.min.css);
 @import url(../lib/flexslider/flexslider.css);
-
+@import url(custom.css);
 /* Fonts */
 /*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext,vietnamese');*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin-ext,vietnamese');
@@ -1140,7 +1140,11 @@ figure {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .block-cate-product .cate-item .box-thumb > a:hover:before {
   opacity: 1;
@@ -1571,17 +1575,16 @@ figure {
   margin-bottom: 30px;
 }
 .block-module .block-title h2 {
-  line-height: 40px;
+  line-height: 50px;
   color: #fff;
-  background: #c70f19;
+  background: #056839;
   padding: 0 15px;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   max-width: 360px;
   position: relative;
 }
 .block-module .block-title h2 i {
-  font-size: 16px;
   margin-right: 10px;
 }
 .block-module .block-content {
@@ -2248,4 +2251,9 @@ h2.tit-page3 {
 }
 .block-search-sidebar .frm-search .form-group select.form-control {
   max-width: 100%;
+}
+.block-search-sidebar .frm-search .form-group .btn {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }

@@ -1,0 +1,16 @@
+.show {
+  width: 100% !important;
+}
+.btn-main {
+  background: #056839;
+  background-color: #056839;
+  border: 1px solid #056839;
+  color: #fff;
+}
+.btn-main:hover,
+.btn-main:focus {
+  background: #036134;
+  background-color: #036134;
+  border: 1px solid #036134;
+  color: #fff !important;
+}
