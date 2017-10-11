@@ -95,6 +95,7 @@ textarea, select, input[type="number"],
 input[type="tel"] {
   width: 100%;
   margin: 0;
+  box-shadow: none;
 }
 ul,
 ol {
@@ -154,11 +155,11 @@ select {
   margin-right: 10px;
 }
 .block-page-common .block-title h2 {
-  font-size: 18px;
+  font-size: 15px;
   color: #333333;
   font-weight: bold;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .block-page-common .block-title h2:before {
   content: url("../images/line.png");
@@ -326,6 +327,7 @@ select {
 .nav-menu li > .submenu > li:hover > a,
 .nav-menu li > .submenu .submenu > li:hover > a {
   color: #fff;
+  background: #008244;
 }
 .nav-toogle {
   position: absolute;
@@ -1575,7 +1577,7 @@ figure {
   margin-bottom: 30px;
 }
 .block-module .block-title h2 {
-  line-height: 50px;
+  line-height: 45px;
   color: #fff;
   background: #056839;
   padding: 0 15px;
@@ -1620,7 +1622,7 @@ figure {
   background: #fff;
 }
 .block-links-sidebar .list li:nth-child(even) {
-  background: #ffedee;
+  background: #f5fffa;
 }
 .block-links-sidebar .list li .thumb {
   float: left;
@@ -1634,7 +1636,7 @@ figure {
   font-size: 13px;
 }
 .block-links-sidebar .list li:hover h3 {
-  color: #c70f19;
+  color: #056839;
 }
 .block-links-sidebar .list li:last-child {
   margin-bottom: 0px;
@@ -1953,11 +1955,25 @@ h2.tit-page3 {
 .bl-show-option .des b:last-child:after {
   display: none;
 }
+
+.block-btn-addtocart .btn {
+  padding: 9px;
+  min-width: 220px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+}
 .btn-addcart-product {
-  background: #c70f19;
+  background: #056839;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-order-contact {
+  background: #666666;
   color: #fff;
   padding: 13px;
-  min-width: 160px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
