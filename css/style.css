@@ -302,7 +302,7 @@ select {
 
 .hdr-social {
   position: absolute;
-  right: 0; bottom: 10px;
+  right: 15px; bottom: 10px;
 }
 .hdr-social li {
   display: inline-block;
@@ -2283,8 +2283,6 @@ h2.tit-page3 {
   text-align: center;
 }
 .btn-addcart-product {
-  background: #056839;
-  color: #fff;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -2298,7 +2296,6 @@ h2.tit-page3 {
   transition: all 0.3s;
 }
 .btn-addcart-product:hover {
-  background: #f23944;
   color: #fff;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
