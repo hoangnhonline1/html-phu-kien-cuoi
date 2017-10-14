@@ -335,6 +335,7 @@
 											<h2>TIÊU ĐỀ SẢN PHẨM ĐÃ CHỌN XEM</h2>
 										</div>
 										<div class="block-content">
+
 											<div class="block block-product-options clearfix">
 												<div class="bl-modul-cm bl-code">
 													<p class="title">Mã sản phẩm:</p>
@@ -352,7 +353,7 @@
 													<p class="title">Màu sản phẩm:</p>
 													<div class="des">
 														<ul class="cl-list">
-															<li class="color_01" style="background:#000;"><a href="#"></a></li>
+															<li class="color_01 out-of-stock" style="background:#000;"><a href="#"></a></li>
 															<li class="color_02" style="background:#222;"><a href="#"></a></li>
 															<li class="color_03" style="background:#444;"><a href="#"></a></li>
 															<li class="color_04" style="background:#666;"><a href="#"></a></li>
@@ -360,17 +361,22 @@
 														</ul>
 													</div>
 												</div>
-												<div class="bl-modul bl-show-option">
-													<span class="title">Phong cách sản phẩm:</span>
+												<div class="bl-modul-cm bl-qty">
+													<p class="title">Chọn số lượng:</p>
 													<div class="des">
-														<b>Quần jeans thun</b>
-														<b>Quần jeans thun</b>
-														<b>Quần jeans thun</b>
-														<b>Quần jeans thun</b>
-														<b>Quần jeans thun</b>
+														<select name="" class="prod_qty">
+															<option value="0">0</option>
+															<option value="1" selected="">1</option>
+															<option value="2">2</option>
+														</select>
 													</div>
 												</div>
+												<div class="bl-modul-cm bl-desc">
+													<span class="lb-txt">Mô tả ngắn:</span>
+													t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
+												</div>
 											</div><!-- /block-datail-if -->
+
 											<div class="block block-share" id="share-buttons">
 												<div class="share-item">
 													<div class="fb-like" data-href="{{ url()->current() }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
