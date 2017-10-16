@@ -149,28 +149,28 @@ select {
   font-family: "FontAwesome";
   content: "\f178";
 }
-.block-page-common .block-title h2 i {
+.block-page-common .block-title .title-main i {
   font-size: 20px;
   color: #c70f19;
   margin-right: 10px;
 }
-.block-page-common .block-title h2 {
+.block-page-common .block-title .title-main {
   font-size: 15px;
   color: #333333;
   font-weight: bold;
   position: relative;
   padding-bottom: 15px;
 }
-.block-page-common .block-title h2:before {
+.block-page-common .block-title .title-main:before {
   content: url("../images/line.png");
   position: absolute;
   bottom: 0; left: 0;
 }
-.block-page-common .block-title.tit-more h2 {
+.block-page-common .block-title.tit-more .title-main {
   text-align: center;
   margin-bottom: 20px;
 }
-.block-page-common .block-title.tit-more h2:before {
+.block-page-common .block-title.tit-more .title-main:before {
   right: 0;
   margin: auto;
 }
